@@ -114,22 +114,17 @@ public class Controller {
         return objectWithIDRepo.getAll();
     }
 
-//    public List<Team> filterByNameTeam(String name) {
-//        return getAllTeams().stream().filter(team -> team.getCity().equals(name)).collect(Collectors.toList());
-//    }
-//
-//    public List<Spieler> getPlayersOfTeam(String name){
-//        return getAllTeams().stream()
-//                .filter(t -> t.getName().equals(name))
-//                .findFirst()
-//                .map(Team::getPlayers)
-//                .orElse(Collections.emptyList());
-//    }
-//
-//    public List<Spieler> sortByValue(int teamId, String sortMode){
-//        List<Spieler> players = teamRepo.get(teamId).getPlayers();
-//        players.sort((m1,m2)->sortMode.equals("asc") ? Integer.compare(m1.getValue(),m2.getValue()) : Integer.compare(m2.getValue(),m1.getValue()));
-//        return players;
-//    }
+    /**
+     * filter characters by their dorfs
+     * @param dorf
+     * @return a list of charakters
+     */
+    public List<Charakter> filterByDorf(String dorf){
+        return getCharakters().stream().filter(c -> c.getHerkunftOrt().equals(dorf)).toList();
+    }
+
+
+
+
 
 }
