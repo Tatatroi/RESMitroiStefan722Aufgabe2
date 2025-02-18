@@ -172,8 +172,8 @@ public class Ui {
                                 else {
                                     prodList.add(controller.getProduct(prod));
                                 }
-                            }
-                            controller.addCharakter(name, dorf, prodList);
+                     }
+                     controller.addCharakter(name, dorf, prodList);
                     System.out.println("Object added successfully");
                     break;
                 case 2: //updateObjwithID();

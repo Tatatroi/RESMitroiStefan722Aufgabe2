@@ -71,7 +71,9 @@ public class Main {
         Charakter c2 = new Charakter(2, "Gaara", "Sunagakure",lp2);
         Charakter c3 = new Charakter(3, "Kisame Hoshigaki", "Kirigakure",lp3);
 
-
+        charaktersRepo.add(c1);
+        charaktersRepo.add(c2);
+        charaktersRepo.add(c3);
 
         // add objects in the repos
         Controller controller = new Controller(charaktersRepo,productsRepo);
