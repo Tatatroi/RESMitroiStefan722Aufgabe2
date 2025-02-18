@@ -123,6 +123,9 @@ public class Controller {
         return getCharakters().stream().filter(c -> c.getHerkunftOrt().equals(dorf)).toList();
     }
 
+    public List<Charakter> filterProducts(String region){
+        return getCharakters().stream().filter(c -> c.getProducts().stream().findFirst().get().getRegion().equals(region)).toList();
+    }
 
 
 
