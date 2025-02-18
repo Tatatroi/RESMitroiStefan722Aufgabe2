@@ -129,7 +129,7 @@ public class Controller {
 
 
     public List<Product> sortProducts(int idOfCharakter, String sortModus){
-        return getCharakter(idOfCharakter).getProducts().stream().sorted((p1,p2)-> sortModus.equals("asc") ? Integer.compare(p1.getPrice(),p2.getPrice()): Integer.compare(p2.getPrice(),p1.getPrice())).toList();
+        return getCharakter(idOfCharakter).getProducts().stream().sorted((p1,p2)-> sortModus.equals("asc") ? Double.compare(p1.getPrice(),p2.getPrice()): Double.compare(p2.getPrice(),p1.getPrice())).toList();
     }
 
 

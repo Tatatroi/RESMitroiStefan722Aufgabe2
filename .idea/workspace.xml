@@ -1,18 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8d9e8c8-a169-434b-b537-ba7253d92de8" name="Changes" comment="" />
+    <list default="true" id="a8d9e8c8-a169-434b-b537-ba7253d92de8" name="Changes" comment="Exercitiul 2  E">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CONTROLLER/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CONTROLLER/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI/Ui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/Ui.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Tatatroi&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Tatatroi/RESMitroiStefan722Aufgabe2.git&quot;,
+    &quot;accountId&quot;: &quot;0da4ec27-8204-4361-9b24-bdf96c1b238a&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2t7n4c3eBTwgb3f3hRJghteSSwI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -21,14 +49,25 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "D:/Anul 2/MAP/RESMitroiStefan722Aufgabe2/src/Main.java",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Anul 2\MAP\RESMitroiStefan722Aufgabe2\src" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -45,22 +84,91 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1739711791348</updated>
-      <workItem from="1739711792484" duration="2000" />
+      <workItem from="1739711792484" duration="447000" />
+      <workItem from="1739817297893" duration="260000" />
+      <workItem from="1739824945582" duration="127000" />
+      <workItem from="1739866614284" duration="59000" />
+      <workItem from="1739869247452" duration="3685000" />
     </task>
+    <task id="LOCAL-00001" summary="test2">
+      <option name="closed" value="true" />
+      <created>1739711880838</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1739711880838</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Exercitiul 2  obiectul Product REPO si MODEL">
+      <option name="closed" value="true" />
+      <created>1739869690433</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1739869690433</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Exercitiul 2  obiectul Charakter REPO si MODEL">
+      <option name="closed" value="true" />
+      <created>1739870086935</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1739870086935</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Exercitiul 2  Controller">
+      <option name="closed" value="true" />
+      <created>1739870279902</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1739870279902</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Exercitiul 2  Ui update Controller">
+      <option name="closed" value="true" />
+      <created>1739871029373</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1739871029373</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Exercitiul 2  C">
+      <option name="closed" value="true" />
+      <created>1739871904334</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1739871904334</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Exercitiul 2  D">
+      <option name="closed" value="true" />
+      <created>1739871922972</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1739871922972</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Exercitiul 2  E">
+      <option name="closed" value="true" />
+      <created>1739871938674</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1739871938674</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test2" />
+    <MESSAGE value="Exercitiul 2  obiectul Product REPO si MODEL" />
+    <MESSAGE value="Exercitiul 2  obiectul Charakter REPO si MODEL" />
+    <MESSAGE value="Exercitiul 2  Controller" />
+    <MESSAGE value="Exercitiul 2  Ui update Controller" />
+    <MESSAGE value="Exercitiul 2  C" />
+    <MESSAGE value="Exercitiul 2  D" />
+    <MESSAGE value="Exercitiul 2  E" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercitiul 2  E" />
   </component>
 </project>

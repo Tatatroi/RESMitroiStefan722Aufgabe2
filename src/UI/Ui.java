@@ -43,12 +43,23 @@ public class Ui {
                         break;
                     case 3:
                         // subpunctu c)
+                        System.out.println("Enter the name of the dorf to filter:");
+                        String name = scanner.nextLine();
+                        controller.filterByDorf(name).forEach(System.out::println);
                         break;
                     case 4:
                         // subpunctu d)
+                        System.out.println("Enter the name of the region to filter:");
+                        String region = scanner.nextLine();
+                        controller.filterProducts(region).forEach(System.out::println);
                         break;
                     case 5:
                         // subpunctu e)
+                        System.out.println("Enter the id of the charakter tp sort the products: ");
+                        int id1 = Integer.parseInt(scanner.nextLine());
+                        System.out.println("Enter the sortModus(asc/desc)");
+                        String sortModus = scanner.nextLine();
+                        controller.sortProducts(id1,sortModus).forEach(System.out::println);
                         break;
                     case 0:
                         System.out.println("Exiting...");
