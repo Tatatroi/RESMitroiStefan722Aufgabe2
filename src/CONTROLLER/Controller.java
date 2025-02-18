@@ -30,14 +30,14 @@ public class Controller {
     /**
      * Adds an object to the .... repo.
      */
-    public void addObjWithName(String name, double price, String region) {
+    public void addProduct(String name, double price, String region) {
         objectWithNameRepo.add(new Product(name, price, region));
     }
 
     /**
      * Adds an object to the ... repo.
      */
-    public void addObjWithID(String name, String region, List<Product> productList) {
+    public void addCharakter(String name, String region, List<Product> productList) {
         //new Object(++newObjID, ...);
         objectWithIDRepo.add(new Charakter(++newObjID, name, region, productList));
     }
@@ -45,7 +45,7 @@ public class Controller {
     /**
      * Updates an object in the .... repo.
      */
-    public void updateObjWithName(String name, double price, String region) {
+    public void updateProduct(String name, double price, String region) {
         //new Object(name, ...);
         objectWithNameRepo.update(new Product(name, price, region));
     }
@@ -63,7 +63,7 @@ public class Controller {
      *
      * @param name the name of the ....
      */
-    public void deleteObjWithName(String name) {
+    public void deleteProduct(String name) {
         objectWithNameRepo.delete(name);
     }
 
@@ -72,7 +72,7 @@ public class Controller {
      *
      * @param id the id of the ...
      */
-    public void deleteObjWithID(int id) {
+    public void deleteCharakter(int id) {
         objectWithIDRepo.delete(id);
     }
 
@@ -82,7 +82,7 @@ public class Controller {
      * @param name the name of the ....
      * @return the object
      */
-    public Object getObjWithName(String name) {
+    public Product getProduct(String name) {
         return objectWithNameRepo.get(name);
     }
 
@@ -92,7 +92,7 @@ public class Controller {
      * @param id the id of the ...
      * @return the object
      */
-    public Object getObjWithID(int id) {
+    public Charakter getCharakter(int id) {
         return objectWithIDRepo.get(id);
     }
 
@@ -101,7 +101,7 @@ public class Controller {
      *
      * @return a list of all ....
      */
-    public List<Product> getAllObjWithName() {
+    public List<Product> getAllProducts() {
         return objectWithNameRepo.getAll();
     }
 
@@ -110,7 +110,7 @@ public class Controller {
      *
      * @return a list of all ...
      */
-    public List<Charakter> getAllObjWithID() {
+    public List<Charakter> getCharakters() {
         return objectWithIDRepo.getAll();
     }
 
